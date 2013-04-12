@@ -25,7 +25,7 @@ You can [watch infiniteAjaxScroll][github_watch] for updates or [follow me on Gi
 and [on Twitter][twitter_follow].
 
 ## License
-infiniteAjaxScroll under WTFPL : <http://www.wtfpl.net/> 
+infiniteAjaxScroll PluXML plugin under WTFPL : <http://www.wtfpl.net/> 
 
 Original infinite Ajax Scroll under MIT : <http://www.fieg.nl/infinite-ajax-scroll-a-jquery-plugin>
 
