@@ -52,7 +52,7 @@ class infiniteAjaxScroll extends plxPlugin {
 <script type="text/javascript" src="'.PLX_PLUGINS.'infiniteAjaxScroll/jquery.ias.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-/*ias*/
+/* ias */
 $.ias({
 	container : \'section\',
 	item: \'article\',
@@ -64,9 +64,9 @@ triggerPageThreshold: 100,
 //trigger: "Charger plus d\'articles",
 thresholdMargin: -200,
 //noneleft: "Fin",
-/*plugins*/
+/* plugins */
 onRenderComplete: function(items) {
-/*zoombox*/
+/* zoombox */
 if($.isFunction($.zoombox)) {
 $(\'a.zoombox\').zoombox();
 				// You can also use specific options
@@ -82,10 +82,18 @@ $(\'a.zoombox\').zoombox();
 				});
 }
 else {
-	//doesnt exists... cry?!?
+	/* doesnt exists... cry?!? */
 	return false;
 }
-/*SyntaxHighlighter*/
+/* fitvids */
+if($(".fitvids").fitVids()) {
+	$(".fitvids").fitVids();
+}
+else {
+	/* doesnt exists... cry?!? */
+	return false;
+}
+/* SyntaxHighlighter */
 if($(\'pre\').each(function(i){})) {
 				var reg = RegExp(\'<br>\',\'g\');
 				$(\'pre\').each(function(i) { 
@@ -96,7 +104,7 @@ if($(\'pre\').each(function(i){})) {
 				SyntaxHighlighter.highlight({\'toolbar\' : \'false\'});
 }
 else {
-	//doesnt exists... cry?!?
+	/* doesnt exists... cry?!? */
 	return false;
 }
 }
