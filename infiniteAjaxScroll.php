@@ -54,8 +54,8 @@ class infiniteAjaxScroll extends plxPlugin {
 $(document).ready(function() {
 /* ias */
 $.ias({
-	container : \'section\',
-	item: \'article\',
+	container : \'#article\',
+	item: \'.article\',
 	pagination: \'#pagination\',
 	next: \'span.p_next a\',
 	loader: \'<img src="<?php $plxShow->template(); ?>/img/loader.gif"/>\',
