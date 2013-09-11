@@ -4,6 +4,8 @@ PluXML infinite Ajax Scroll plugin
 infinite Ajax Scroll by [i M@N][ali0une_site] is a [PluXML][pluxml_site] plugin based on [Jeroen Fiege][Fieg_site] [infinite Ajax Scroll][webcreate_github] jQuery plugin
 
 ## installation
+This is version 1.1 for PluXML &gt;= 5.2
+Download version 1.0 for PluXML =&lt; 5.1.7 [here][ali0une_PluXML]
 Require the PluXML [jQuery][jquery_site] plugin available at [Pluxml Official plugins][pluxml_plugins]
 
 ## Example
@@ -40,6 +42,7 @@ Original infiniteAjaxScroll is made by [Jeroen Fiege][Fieg_site]
 [webcreate_github]: https://github.com/webcreate/infinite-ajax-scroll
 [Fieg_site]: http://www.fieg.nl
 [ali0une_site]: http://imanweb.free.fr
+[ali0une_PluXML]: http://imanweb.free.fr/PluXML/
 [issues]: http://github.com/ali0une/infiniteAjaxScroll/issues
 [mail_me]: http://github.com/inbox/new/ali0une
 [github_watch]: http://github.com/ali0une/infiniteAjaxScroll/toggle_watch
