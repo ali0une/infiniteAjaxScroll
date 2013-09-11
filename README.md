@@ -5,7 +5,9 @@ infinite Ajax Scroll by [i M@N][ali0une_site] is a [PluXML][pluxml_site] plugin 
 
 ## installation
 This is version 1.1 for PluXML &gt;= 5.2
+
 Download version 1.0 for PluXML =&lt; 5.1.7 [here][ali0une_PluXML]
+
 Require the PluXML [jQuery][jquery_site] plugin available at [Pluxml Official plugins][pluxml_plugins]
 
 ## Example
