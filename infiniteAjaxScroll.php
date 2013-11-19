@@ -2,8 +2,8 @@
 /**
  * Classe infiniteAjaxScroll
  *
- * @version	1.0
- * @date	12/04/2013
+ * @version	1.2
+ * @date	19/11/2013
  * @author	i M@N
  **/
 class infiniteAjaxScroll extends plxPlugin {
@@ -58,7 +58,7 @@ $.ias({
 	item: \'.article\',
 	pagination: \'#pagination\',
 	next: \'span.p_next a\',
-	loader: \'<img src="<?php $plxShow->template(); ?>/img/loader.gif"/>\',
+	loader: \'<img src="'.PLX_PLUGINS.'infiniteAjaxScroll/loader.gif" />\',
 history: false,
 triggerPageThreshold: 100,
 //trigger: "Charger plus d\'articles",
